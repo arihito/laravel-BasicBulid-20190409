@@ -1,0 +1,12 @@
+[09-Apr-2019 11:03:33 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/cms/vendor/myclabs/deep-copy/src/DeepCopy/deep_copy.php on line 1
+[09-Apr-2019 11:03:33 UTC] PHP Stack trace:
+[09-Apr-2019 11:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/public/index.php:0
+[09-Apr-2019 11:03:33 UTC] PHP   2. require() /home/ubuntu/workspace/cms/public/index.php:24
+[09-Apr-2019 11:03:33 UTC] PHP   3. ComposerAutoloaderInitf03b1cfc40b4ef461878ca246626a9b6::getLoader() /home/ubuntu/workspace/cms/vendor/autoload.php:7
+[09-Apr-2019 11:03:33 UTC] PHP   4. composerRequiref03b1cfc40b4ef461878ca246626a9b6() /home/ubuntu/workspace/cms/vendor/composer/autoload_real.php:56
+[09-Apr-2019 11:03:33 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ubuntu/workspace/cms/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[09-Apr-2019 11:03:33 UTC] PHP Stack trace:
+[09-Apr-2019 11:03:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cms/public/index.php:0
+[09-Apr-2019 11:03:33 UTC] PHP   2. require() /home/ubuntu/workspace/cms/public/index.php:24
+[09-Apr-2019 11:03:33 UTC] PHP   3. ComposerAutoloaderInitf03b1cfc40b4ef461878ca246626a9b6::getLoader() /home/ubuntu/workspace/cms/vendor/autoload.php:7
+[09-Apr-2019 11:03:33 UTC] PHP   4. composerRequiref03b1cfc40b4ef461878ca246626a9b6() /home/ubuntu/workspace/cms/vendor/composer/autoload_real.php:56
