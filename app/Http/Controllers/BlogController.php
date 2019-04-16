@@ -2,11 +2,17 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Carbon\Carbon;
 
 use App\Blog;
 use Illuminate\Http\Request;
 
 class BlogController extends Controller {
+	
+	public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
 	/**
 	 * Display a listing of the resource.
@@ -43,7 +49,9 @@ class BlogController extends Controller {
 		$blog->title = $request->input("title");
         $blog->price = $request->input("price");
         $blog->body = $request->input("body");
-        $blog->published = $request->input("published");
+        // $blog->published = $request->input("published");
+        $time = new Carbon(Carbon::now());
+        $blog->published = $time;
 
 		$blog->save();
 
